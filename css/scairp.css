@@ -1,0 +1,13 @@
+.header {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 10rem;
+}
+
+.header .logo {
+    width: 20rem;
+    height: 10rem;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
